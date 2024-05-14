@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #c6b7c9;
+}
+ 
+h1{
+    text-align: center;
+}
+.row{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.container{
+    background-color: rgb(126, 87, 126);
+    margin:0 40%;
+
+    
+}
+  
+.row{
+    padding:10px 5px;
+
+    
+}
+button{
+    padding:10px 20px;
+    margin:0 5px;
+    border-radius: 15px;
+    border-style:groove;
+    font-size: large;
+}
+.row input{
+    padding:25px 30px;
+    border:4px solid rgb(70, 12, 23);
+
+}
+.aa{
+    padding:10px 15px;
+}
+.dd{
+    padding:10px 15px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        background-color:rgb(126, 87, 126);
+        margin:0 10%;
+    }
+}
